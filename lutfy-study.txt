@@ -1,7 +1,8 @@
 Lutfy Study 
 - GitHub dan Git
-  * Pengenalan Github 
-    ^ Repository 
-    ^ Merge 
-    ^ Commit
+ * Pengenalan Git dan GitHub
+ * Dasar dasar Git dan GitHub
+ * GitHub dan remote Repository 
+ * Branching dan Merging 
+
 - JavaScript
