@@ -1,4 +1,3 @@
 # lutfy-study 
 
-Program belajar ngoading 
-- Git dan GitHub
+Git dan Github awal
