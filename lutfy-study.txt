@@ -1,7 +1,7 @@
 Lutfy Study 
 - GitHub dan Git
   * Pengenalan Github 
-  * Istilah istilah dalam GitHub
-    ^ Settings 
-    ^ Pull Request 
+    ^ Repository 
+    ^ Merge 
+    ^ Commit
 - JavaScript
