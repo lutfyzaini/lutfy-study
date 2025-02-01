@@ -2,4 +2,7 @@ Lutfy Study
 - GitHub dan Git
   * Pengenalan Github 
   * Istilah istilah dalam GitHub
+    ^ Repository 
+    ^ Merge 
+    ^ Commit
 - JavaScript
