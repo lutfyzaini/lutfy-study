@@ -6,4 +6,23 @@
  * Commit
  * Pull Requset 
  * Branch 
- * Merge Conflict 
+ * Merge Conflict
+
+- Git 
+  * Merupakan sistem Version Control System yang digunakan untuk melacak perubahan 
+  * Git Command 
+    ^ git init = menginisialisasi repository git dalam folder 
+    ^ git add = menambah file ke staging 
+    ^ git status 
+    ^ git commit = menyimpan perubahan
+    ^ git config 
+    ^ git branch 
+    ^ git help
+  * Working Space pada Git
+    ^ Working tree
+      - git add 
+      - git status
+    ^ Staging area 
+      - git commit 
+    ^ History
+      # Staging area dan History akan masuk ke dalam folder .git
