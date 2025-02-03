@@ -36,3 +36,9 @@
     ^ Alias hanya berlaku satu sesi
   * Mundur ke keadaan tertentu 
     ^ Copy 7 digit pada log yang ingin didatangi
+  * Remote 
+    ^ git clone = mengambil penuh dari repository GitHub
+    ^ git remote = membuat remote baru menambah, mengubah, atau menghapus remote repository.
+    ^ git push = mengirim perubahan ke remote
+    ^ git pull = mengambil pembaruan dari remote dan mengabungkan dengan remote lokal
+
