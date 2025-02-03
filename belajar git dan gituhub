@@ -26,3 +26,9 @@
       - git commit 
     ^ History
       # Staging area dan History akan masuk ke dalam folder .git
+  * Merge 
+    ^ git branch (melihat branch)
+    ^ git branch *nama branch(membuat branch baru)
+    ^ git checkout (pindah ke branch lain)
+    ^ git branch -d (menghapus branch)
+    ^ git merge (menyatukan branch lain ke main branch)
