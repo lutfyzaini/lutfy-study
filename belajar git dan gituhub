@@ -32,3 +32,5 @@
     ^ git checkout (pindah ke branch lain)
     ^ git branch -d (menghapus branch)
     ^ git merge (menyatukan branch lain ke main branch)
+  * Alias
+    ^ Alias hanya berlaku satu sesi
