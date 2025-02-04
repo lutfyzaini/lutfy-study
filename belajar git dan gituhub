@@ -34,6 +34,7 @@
     ^ git merge (menyatukan branch lain ke main branch)
   * Alias
     ^ Alias hanya berlaku satu sesi
+    ^ $ alias graph="git log --oneline --graph --decorate"
   * Mundur ke keadaan tertentu 
     ^ Copy 7 digit pada log yang ingin didatangi
   * Remote 
