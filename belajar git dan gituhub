@@ -42,3 +42,11 @@
     ^ git push = mengirim perubahan ke remote
     ^ git pull = mengambil pembaruan dari remote dan mengabungkan dengan remote lokal
 
+  * Upload repo lokal ke github
+    ^ git init 
+    ^ git add 
+    ^ git commit 
+
+    remote
+    ^ git remote 
+    ^ git push
