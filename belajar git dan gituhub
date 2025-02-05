@@ -48,6 +48,9 @@
     ^ git add 
     ^ git commit 
 
-    remote
+  * remote
     ^ git remote 
     ^ git push
+
+  * gitignore
+    ^ 
