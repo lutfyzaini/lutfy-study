@@ -53,4 +53,4 @@
     ^ git push
 
   * gitignore
-    ^ 
+    ^ digunakan untuk mengecualikan file/folder agar tidak di-track oleh Git
