@@ -1,0 +1,11 @@
+- Pengenalan javascript 
+ * digunakan untuk membuat website interaktif dan digunakan untuk berbagai keperluan termasuk backend
+ * Diciptakan Brendan Eich(1995) dalam waktu 10 hari,
+ * Tujuan awalnya untuk memberikan kemampuan scripting pada browser 
+ * Javascript awalnya dinamai dengan Mocha -> LiveScript -> JavaScript untuk tujuan pemasaran karena bahasa Java sedang populer saat itu
+ * JavaScript dan Java tidak berhubungan sama sekali
+ * 1995 JavaScript pertama kali muncul di browser Netscape
+ * 1997 Standarisasi pertama oleh ECMAScript(ES1)
+ * 2009 ES5 dirilis dengan fitur modern
+ * Sekarang javascript terus berkembang dengan fitur baru setiap tahunnya
+ 
