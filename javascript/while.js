@@ -1,6 +1,4 @@
-console.log("Hello World");
-
-var x;
+var x = true;
 while (x) {
   console.log("Hello World");
 
