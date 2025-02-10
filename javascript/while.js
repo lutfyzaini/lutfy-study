@@ -1,6 +1,5 @@
-var x = true;
-while (x) {
-  console.log("Hello World");
-
-  x = confirm("lagi?");
+var x;
+while (x <= 10) {
+  console.log("Angkot No." + x + "beroperasi dengan baik.");
+  x++;
 }
