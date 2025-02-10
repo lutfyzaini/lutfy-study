@@ -1,5 +1,5 @@
-var x;
+var x = 1;
 while (x <= 10) {
-  console.log("Angkot No." + x + "beroperasi dengan baik.");
+  console.log("Angkot No." + x + " beroperasi dengan baik.");
   x++;
 }
