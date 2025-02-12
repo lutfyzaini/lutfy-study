@@ -1,9 +1,12 @@
-var x = "";
-
-for (var i = 10; i > 0; i--) {
-  for (var s = 0; s < i; s++) {
-    x += "*";
+var s = "";
+for (i = 5; i > 0; i--) {
+  for (j = 0; j <= 5; j++) {
+    if (j >= i) {
+      s += "* ";
+    } else {
+      s += " ";
+    }
   }
-  x += "\n";
+  s += "\n";
 }
-console.log(x);
+console.log(s);
