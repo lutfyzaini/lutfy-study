@@ -9,3 +9,25 @@
  * 2009 ES5 dirilis dengan fitur modern
  * Sekarang javascript terus berkembang dengan fitur baru setiap tahunnya
  
+ * Pengulangan 
+    ^ While 
+    ^ For 
+ * Pengkondisian 
+    ^ If else 
+    ^ Else if 
+    ^ Switch case
+
+ * Function 
+    ^ Built in function 
+        sudah disediakan oleh javascript 
+        - String : charAt(), slice(), split(), toString(), toLowerCase(), toUpperCase(),......
+        - Math : sin(), cos(), tan(), random(), round(), floor(), ceil(), log()..... 
+    ^ User-defined function 
+        - Fungsi buatan sendiri 
+        - menggunakan keyword function 
+        - parameter / argumen 
+            ~ Disimpan di dalam () 
+            ~ boleh ada atau tidak, jika ada boleh lebih dari satu 
+            ~ dipisahkan oleh koma (,)
+        - Function body, dibungkus dengan {} 
+    ^ Membuat Function 
