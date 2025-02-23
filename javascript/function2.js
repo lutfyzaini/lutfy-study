@@ -1,9 +1,10 @@
-function coba(a, b) {
+function tambah(a, b) {
   return a + b;
 }
 
-var a = parseInt(prompt("Masukkan nilai 1 : "));
-var b = parseInt(prompt("Masukkan nilai 2 : "));
+function kali(a, b) {
+  return a * b;
+}
 
-var hasil = coba(a, b);
-console.log(coba(100, 70));
+var hasil = kali(tambah(1, 2), tambah(3, 4));
+console.log(hasil);
