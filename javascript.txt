@@ -31,3 +31,5 @@
             ~ dipisahkan oleh koma (,)
         - Function body, dibungkus dengan {} 
     ^ Membuat Function 
+
+    
