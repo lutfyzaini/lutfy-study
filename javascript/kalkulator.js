@@ -1,18 +1,18 @@
 alert("Kalkulator sederhana");
-while (true) {
-  function tambah(a, b) {
-    return a + b;
-  }
-  function kurang(a, b) {
-    return a - b;
-  }
-  function bagi(a, b) {
-    return b === 0 ? "Tidak dapat membagi dengan nol!" : a / b;
-  }
-  function kali(a, b) {
-    return a * b;
-  }
+function tambah(a, b) {
+  return a + b;
+}
+function kurang(a, b) {
+  return a - b;
+}
+function bagi(a, b) {
+  return b === 0 ? "Tidak dapat membagi dengan nol!" : a / b;
+}
+function kali(a, b) {
+  return a * b;
+}
 
+while (true) {
   var a = prompt("Masukkan angka pertama : ");
 
   if (a === null) {
