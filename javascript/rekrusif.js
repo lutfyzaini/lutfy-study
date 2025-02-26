@@ -1,6 +1,7 @@
 function cetakAngka(i) {
-  if (i === 0) return;
   console.log(i);
-  return cetakAngka(i - 1);
+  if (i === 0) return 1;
+  return i * cetakAngka(i - 1);
 }
-cetakAngka(90);
+
+console.log(cetakAngka(5));
