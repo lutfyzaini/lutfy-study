@@ -1,3 +1,3 @@
 # lutfy-study 
 
-Git dan Github awal
+Progres belajar
