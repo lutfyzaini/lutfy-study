@@ -1,36 +1,30 @@
-var penumpang = [];
-var tambahPenumpang = function (namaPenumpang, penumpang) {
-  // Jika angkot kosong
-  if (penumpang.length == 0) {
-    penumpang.push(namaPenumpang);
-    return penumpang;
-  } else {
-    for (let i = 0; i < penumpang.length; i++) {
-      if (penumpang[i] == undefined) {
-        penumpang[i] = namaPenumpang;
-        return penumpang;
-      } else if (penumpang[i] == namaPenumpang) {
-        console.log(namaPenumpang + "SUDAH ADA DI DALAM ANGKOT");
-        return penumpang;
-      } else if (i == penumpang.length - 1) {
-        penumpang.push(namaPenumpang);
-        return penumpang;
-      }
-    }
-  }
-};
+// membuat object angkot
+function Angkot(supir, trayek, penumpang, kas) {
+  this.supir = supir;
+  this.trayek = trayek;
+  this.penumpang = penumpang;
+  this.kas = kas;
 
-var hapusPenumpang = function (namaPenumpang, penumpang) {
-  if (penumpang.length === 0) {
-    console.log("ANGKOT MASIH KOSONG!");
-  } else {
-    for (let k = 0; k < penumpang.length; k++) {
-      if (penumpang[k] == namaPenumpang) {
-        penumpang[k] = undefined;
-      } else if (k == penumpang.length - 1) {
-        console.log(namaPenumpang + " tidak ada dalam daftar penumpang");
+  this.penumpangNaik = function (namaPenumpang) {
+    this.penumpang.push(namaPenumpang);
+    return this.penumpang;
+  };
+
+  this.penumpangTurun = function (namaPenumpang, bayar) {
+    if (this.penumpang.length === 0) {
+      alert("penumpang masih kosong!");
+      return false;
+    }
+
+    for (let i = 0; i < this.penumpang.length; i++) {
+      if (this.penumpang[i] == namaPenumpang) {
+        this.penumpang[i] = undefined;
+        this.kas += bayar;
+        return this.penumpang;
       }
     }
-  }
-  return penumpang;
-};
+  };
+}
+
+var angkot1 = new Angkot("Lutpi", ["Cabenakunti", "CandiKidul"], [], 0);
+var angkot2 = new Angkot("Danu", ["Cepogo", "Sukabumi"], [], 0);
