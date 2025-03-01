@@ -1,4 +1,4 @@
-var penumpang = ["Lutfy", undefined, "Zaini"];
+var penumpang = [];
 var tambahPenumpang = function (namaPenumpang, penumpang) {
   // Jika angkot kosong
   if (penumpang.length == 0) {
@@ -18,4 +18,19 @@ var tambahPenumpang = function (namaPenumpang, penumpang) {
       }
     }
   }
+};
+
+var hapusPenumpang = function (namaPenumpang, penumpang) {
+  if (penumpang.length === 0) {
+    console.log("ANGKOT MASIH KOSONG!");
+  } else {
+    for (let k = 0; k < penumpang.length; k++) {
+      if (penumpang[k] == namaPenumpang) {
+        penumpang[k] = undefined;
+      } else if (k == penumpang.length - 1) {
+        console.log(namaPenumpang + " tidak ada dalam daftar penumpang");
+      }
+    }
+  }
+  return penumpang;
 };
