@@ -1,5 +1,5 @@
 var nama = prompt("Masukkan nama : ").trim();
-var umur = prompt("Masukkan umur : ").trim();
+var umur = Number(prompt("Masukkan umur : ").trim());
 
 if (umur < 18) {
   alert(`Halo, ${nama} Kamu masih remaja.`);
