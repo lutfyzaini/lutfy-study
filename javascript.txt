@@ -33,3 +33,10 @@
     ^ Membuat Function 
 
     
+
+- DOM (Document Object Model) 
+ * Document = Isi dari sebuah website
+ * Object  = merupakan nilai atau tipe data pada javascript 
+ * Model = representasi dari sesuatu  
+
+ * DOM adalah representasi element HTML pada dokumen menjadi sebuah object.
