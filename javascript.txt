@@ -39,4 +39,4 @@
  * Object  = merupakan nilai atau tipe data pada javascript 
  * Model = representasi dari sesuatu  
 
- * DOM adalah representasi element HTML pada dokumen menjadi sebuah object.
+ * DOM adalah representasi element HTML pada dokumen menjadi sebuah object. 
