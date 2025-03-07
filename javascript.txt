@@ -40,3 +40,28 @@
  * Model = representasi dari sesuatu  
 
  * DOM adalah representasi element HTML pada dokumen menjadi sebuah object. 
+ * DOM TREE 
+    ^ Tipe tipe node 
+        - Element  
+        - Text 
+        - Document 
+    ^ nodeList 
+        - lebih dari satu node 
+    ^ HTMLCollection
+        - KUmpulan node yang bertipe HTML 
+    ^ NodeList vs HTMLCollection
+        - Keduanya merupakan kumpulan node 
+        - Struktur datanya mirip array 
+        - nodeList dapat berisi node apapun, sedangkan HTMLCollection harus berisi elemen HTML 
+        - HTMLCollection bersifat live sedangkan nodeList tidak 
+    ^ Struktur Hierarki DOM Tree 
+        - Root Node 
+            node yang menjadi sumber dari smua node lain di dalam DOM 
+        - Parent Node 
+            node yang berada 1 tingkat diatas node yang lain
+            body adalah parent dari h1, p, div, dan a 
+        - Child Node 
+            node yang berada 1 tingkat dibawah node yang lain 
+            h1 adalah child dari body 
+    ^ DOM Selection Method 
+        - getElementById() 
