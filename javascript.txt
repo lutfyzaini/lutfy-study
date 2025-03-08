@@ -65,3 +65,4 @@
             h1 adalah child dari body 
     ^ DOM Selection Method 
         - getElementById() 
+        - getElementByTagName()
