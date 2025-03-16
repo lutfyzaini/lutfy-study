@@ -1,3 +1,5 @@
-name = ["Harry", "Budi", "Putra"]
+coordinateX = 10.0
+coordinateY = 20.0 
 
-print(name[2])
+coordinate = (10.0, 20.0) 
+
