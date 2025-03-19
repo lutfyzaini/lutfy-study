@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div style="position: absolute; top: 0; right: 0">
+    <!-- Navbar -->
+    <div class="navbar">
       <a href="image.html">Google Image Search</a>
-      &nbsp;
       <a href="advanced.html">Advanced Google Search</a>
     </div>
-    <form class="box" action="https://google.com/search">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
-    </form>
+
+    <!-- Search form -->
+    <div class="box">
+      <form id="search-box" action="https://google.com/search">
+        <input class="box-1" type="text" name="q" /><br />
+        <input class="box-2" type="submit" value="Google Search" />
+      </form>
+    </div>
   </body>
 </html>
